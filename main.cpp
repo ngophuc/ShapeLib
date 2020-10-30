@@ -124,13 +124,14 @@ void write_shapefile(const std::string& filename, std::vector<polygon_2d>& polyg
 int main()
 {
     //Read Shape File
-    std::string filename = "shapes.shx";
+    std::string filename = "../Samples/shapes.shx";
     std::vector<polygon_2d> polygons;
     read_shapefile(filename, polygons);
-    filename = "shapes.txt";
+    filename = "../Samples/shapes.txt";
+    //Read / Write a polygon point file
     //write_textefile("shapes.txt", polygons);
     std::vector<polygon_2d> polygons2;
-    read_textefile("shapes.txt", polygons2);
+    read_textefile(filename, polygons2);
     //Write Shape File
     filename = "test.shx";
     write_shapefile(filename, polygons2);
