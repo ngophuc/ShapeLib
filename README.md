@@ -1,6 +1,6 @@
 # ShapeLib
 
-Example of use shapelib for reading / writing 
+Example of shapelib for reading / writing files
 
 Requires: 
 - Installation of shapelib: http://shapelib.maptools.org/
