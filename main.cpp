@@ -4,7 +4,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
-#include "shapefil.h"
+#include "shapelib-1.3.0/shapefil.h"
 
 #define MAX_SIZE 1000
 
