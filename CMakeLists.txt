@@ -14,7 +14,7 @@ set(CMAKE_CXX_EXTENSIONS False)
 #Required in shapelib
 FIND_PACKAGE(shapelib REQUIRED)
 INCLUDE_DIRECTORIES(${shapelib_INCLUDE_DIRS})
-#set(GMP_DIR "/usr/local")
+#set(shapelib_DIR "/usr/local")
 #include_directories(${PROJECT_NAME} ${shapelib_DIR}/include)
 #link_directories(${PROJECT_NAME} ${shapelib_DIR}/lib)
 #find_library(shapelib_LIBRARY NAMES shapelib PATHS "${shapelib_DIR}")
